@@ -812,13 +812,13 @@ void DriverBoradInit(void)
 			i2c_err = ReadE2promInfor(set_cnt,DRI_FLAG_ADDR,1, (uint8_t *)&reg_flag);
 			if((reg_flag == DRI_FLAG_VALUE)&&(i2c_err == I2C_CHIP_ERR_NONE))
 			{
-				ReadE2promInfor(set_cnt,PWR_CAL_ADDR,8, (uint8_t *)&reg_double);
+				ReadE2promInfor(set_cnt+1,PWR_CAL_ADDR,8, (uint8_t *)&reg_double);
 				g_s_DriverInfor[set_cnt].SetPWR_Pos_K = reg_double;
-				ReadE2promInfor(set_cnt,PWR_CAL_ADDR+8,8, (uint8_t *)&reg_double);
+				ReadE2promInfor(set_cnt+1,PWR_CAL_ADDR+8,8, (uint8_t *)&reg_double);
 				g_s_DriverInfor[set_cnt].SetPWR_Pos_B = reg_double;
-				ReadE2promInfor(set_cnt,PWR_CAL_ADDR+16,8, (uint8_t *)&reg_double);
+				ReadE2promInfor(set_cnt+1,PWR_CAL_ADDR+16,8, (uint8_t *)&reg_double);
 				g_s_DriverInfor[set_cnt].SetPWR_Neg_K = reg_double;
-				ReadE2promInfor(set_cnt,PWR_CAL_ADDR+24,8, (uint8_t *)&reg_double);
+				ReadE2promInfor(set_cnt+1,PWR_CAL_ADDR+24,8, (uint8_t *)&reg_double);
 				g_s_DriverInfor[set_cnt].SetPWR_Neg_B = reg_double;
 			}
 			
