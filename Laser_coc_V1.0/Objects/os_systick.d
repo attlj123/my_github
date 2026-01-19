@@ -1,0 +1,13 @@
+.\objects\os_systick.o: Source\bsp\CMSIS\os_systick.c
+.\objects\os_systick.o: .\Source\bsp\CMSIS\include\os_tick.h
+.\objects\os_systick.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\os_systick.o: .\Source\app\inc\RTE_Components.h
+.\objects\os_systick.o: .\Source\startup\include\stm32h7xx.h
+.\objects\os_systick.o: .\Source\startup\include\stm32h743xx.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\core_cm7.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\cmsis_version.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\mpu_armv7.h
+.\objects\os_systick.o: .\Source\bsp\CMSIS\Core\Include\cachel1_armv7.h
+.\objects\os_systick.o: .\Source\startup\include\system_stm32h7xx.h

@@ -1,0 +1,12 @@
+.\objects\system_stm32h7xx.o: Source\startup\system_stm32h7xx.c
+.\objects\system_stm32h7xx.o: .\Source\startup\include\stm32h7xx.h
+.\objects\system_stm32h7xx.o: .\Source\startup\include\stm32h743xx.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\core_cm7.h
+.\objects\system_stm32h7xx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\mpu_armv7.h
+.\objects\system_stm32h7xx.o: .\Source\bsp\CMSIS\Core\Include\cachel1_armv7.h
+.\objects\system_stm32h7xx.o: .\Source\startup\include\system_stm32h7xx.h
+.\objects\system_stm32h7xx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

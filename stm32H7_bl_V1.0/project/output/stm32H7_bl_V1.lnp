@@ -1,0 +1,28 @@
+--cpu Cortex-M7.fp.sp
+".\output\main.o"
+".\output\app_link.o"
+".\output\app_usart.o"
+".\output\app_turntoapp.o"
+".\output\driver_sleep.o"
+".\output\driver_uart.o"
+".\output\embeddedflashmemory.o"
+".\output\ota.o"
+".\output\system_stm32h7xx.o"
+".\output\stm32h7xx_hal_gpio.o"
+".\output\stm32h7xx_hal.o"
+".\output\stm32h7xx_hal_flash.o"
+".\output\stm32h7xx_hal_flash_ex.o"
+".\output\stm32h7xx_hal_rcc.o"
+".\output\stm32h7xx_hal_rcc_ex.o"
+".\output\stm32h7xx_hal_uart.o"
+".\output\stm32h7xx_hal_uart_ex.o"
+".\output\stm32h7xx_hal_cortex.o"
+".\output\stm32h7xx_hal_dma.o"
+".\output\stm32h7xx_hal_dma_ex.o"
+".\output\stm32h7xx_hal_pwr.o"
+".\output\stm32h7xx_hal_pwr_ex.o"
+".\output\startup_stm32h743xx.o"
+--library_type=microlib --strict --scatter ".\output\stm32H7_bl_V1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\stm32H7_bl_V1.map" -o .\output\stm32H7_bl_V1.0

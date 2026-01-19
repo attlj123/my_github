@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:\\Keil_v5\\ARM\\ARMCC\\include\\",
+        "${workspaceFolder}/kernel/FreeRTOS/portable/RVDS/ARM_CM7/r0p1",
+        "${workspaceFolder}/startup/include",
+        "${workspaceFolder}/bsp/BspH7/Inc",
+        "${workspaceFolder}/bsp/CMSIS/include",
+        "${workspaceFolder}/bsp/CMSIS/Core/Include",
+        "${workspaceFolder}/kernel/FreeRTOS/include",
+        "${workspaceFolder}/app/inc",
+        "${workspaceFolder}/component/FreeRTOS-Plus-TCP/include",
+        "${workspaceFolder}/component/FreeRTOS-Plus-TCP/portable/Compiler",
+        "${workspaceFolder}/component/coreMQTT/source/include",
+        "${workspaceFolder}/component/coreMQTT/source/interface",
+        "${workspaceFolder}/component/FreeRTOS-IoT/sockets_wrapper/freertos_plus_tcp",
+        "${workspaceFolder}/component/FreeRTOS-IoT/using_plaintext",
+        "${workspaceFolder}/component/FreeRTOS-IoT/Utilities/backoff_algorithm",
+        "${workspaceFolder}/component/FreeRTOS-IoT/Utilities/logging",
+        "${workspaceFolder}/component/FreeRTOS-IoT",
+        "${workspaceFolder}/component/NetworkInterface/include",
+        "${workspaceFolder}/middle/Command/inc",
+        "${workspaceFolder}/middle/PID/inc",
+        "${workspaceFolder}/bsp/Driver/inc",
+        "${workspaceFolder}/middle/OTA/inc"
+      ],
+      "defines": [
+        "STM32H7",
+        "MQTT_DO_NOT_USE_CUSTOM_CONFIG",
+        "STM32H743xx"
+      ],
+      "windowsSdkVersion": "10.0.18362.0",
+      "compilerPath": "gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A 274392137@qq.com, A, LIC=UJWP0-BV898-TGH7T-RYKS1-5RI7Z-6GXWK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\work\SemiTest\COCBurnIn\H7_Embed\pa1103_bl_V1.0\project\pa1103_bl_V1.0.uvprojx
+Project File Date:  10/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'pa1103_bl_V1.0'
+compiling Driver_Sleep.c...
+assembling startup_stm32h743xx.s...
+compiling stm32h7xx_hal_uart_ex.c...
+compiling system_stm32h7xx.c...
+compiling App_Usart.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling App_Link.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling App_TurnToApp.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal.c...
+compiling main.c...
+app\src\main.c(221): warning:  #223-D: function "OTA_CheckAndSwap_Early" declared implicitly
+  				OTA_CheckAndSwap_Early();
+app\src\main.c: 1 warning, 0 errors
+compiling stm32h7xx_hal_uart.c...
+compiling ota.c...
+driver\ota.c(28): warning:  #1254-D: arithmetic on pointer to void or function type
+  		memcpy(m, (void *)Flage_PAGE_ADDR, sizeof(*m));    
+driver\ota.c(274): warning:  #177-D: variable "hdr"  was declared but never referenced
+  		const ota_hdr_t *hdr = (const ota_hdr_t *)uart3_rx_buff;
+driver\ota.c(278): warning:  #177-D: variable "rc"  was declared but never referenced
+      int rc = -1;    
+driver\ota.c: 3 warnings, 0 errors
+compiling stm32h7xx_hal_dma_ex.c...
+compiling Driver_Uart.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling embeddedFlashMemory.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_dma.c...
+linking...
+Program Size: Code=24788 RO-data=752 RW-data=24 ZI-data=1464  
+FromELF: creating hex file...
+".\output\pa1103_bl_V1.0" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.0.0.pack
+                Keil.STM32H7xx_DFP.4.0.0
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_pa1103_bl_V1.0
+  D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
